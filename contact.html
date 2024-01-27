@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sugu ecomorcee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="res">
+            <h1>Sugu</h1>
+            <img src="https://cdn-icons-png.flaticon.com/128/759/759412.png" id="meraj" width="30px">
+          </div>
+          <div id="menu" onclick="openMenu()"><i class="fa-solid fa-bars"></i></div>
+            <div class="navbar">
+                 <ul>
+                   <div id="hide" onclick=" closeMenu()">
+                     <h2>X</h2>
+                   </div>
+                   <h1 class="logo">Sugu</h1>
+                     <li><a href="sugu.html">Home</a></li>
+                     <li><a href="index.html">About</a></li>
+                     <li><a href="index.html">Men's</a></li>
+                     <li><a href="index.html">Women's</a></li>
+                     <li><a href="index.html">Kids</a></li>
+                     <li><a href="index.html">Contact Us</a></li>
+                      <a href="cart.html"><img src="https://cdn-icons-png.flaticon.com/128/759/759412.png"  width="30px"></a>
+                 </ul>
+            </div>
+        </nav>
+      </header>
+   <div class="banner">
+    <section class="left">
+        <img src="banner.png" >
+    </section>
+<div class="contact">
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+      <input type="text" placeholder="First Name" id="FirstName">
+      <input type="text" placeholder="Last Name" id="LastName">
+      <input type="text" placeholder="Email" id="email">
+      <input type="text" placeholder="Password" id="Password">
+      <p class="checkbox">
+          If you suttisfied with all terms and policy ?
+          <input type="checkbox" id="checkbox" onclick="checkbox()">
+      </p>
+      <input type="submit" value="Submit">
+     
+    </form>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
